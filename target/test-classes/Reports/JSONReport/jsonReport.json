@@ -1,0 +1,394 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-30T11:28:48.341Z",
+        "line": 14,
+        "name": "Invalid_login- To validate the login functionality with invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-bigw-application;invalid-login--to-validate-the-login-functionality-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30552436100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should be in bigw login",
+            "match": {
+              "location": "LoginStep.the_user_should_be_in_bigw_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1777868300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user has to click account button",
+            "match": {
+              "location": "LoginStep.the_user_has_to_click_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3706131800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user has to enter the \"suganya@gmail.com\" and \"2455678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suganya@gmail.com\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"2455678\"",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginStep.the_user_has_to_enter_the_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1112567500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user has to click \"login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStep.the_user_has_to_click_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1360243400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should navigate to the invalid login page",
+            "match": {
+              "location": "LoginStep.the_user_should_navigate_to_the_invalid_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@retest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-30T11:29:27.132Z",
+        "line": 27,
+        "name": "Valid_login- To validate the login functionality with valid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-bigw-application;valid-login--to-validate-the-login-functionality-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24283157200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user should be in bigw login",
+            "match": {
+              "location": "LoginStep.the_user_should_be_in_bigw_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3863858300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user has to click account button",
+            "match": {
+              "location": "LoginStep.the_user_has_to_click_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 870518900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user has to enter the \"kathir@gmail.com\" and \"6765379\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kathir@gmail.com\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"6765379\"",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginStep.the_user_has_to_enter_the_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1415134100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user has to click \"login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStep.the_user_has_to_click_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 838438900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user should navigate to the invalid login page",
+            "match": {
+              "location": "LoginStep.the_user_should_navigate_to_the_invalid_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@retest"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of bigw application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-bigw-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-30T11:29:58.421Z",
+        "line": 4,
+        "name": "Invalid_register- To validate the registration functionality of the application",
+        "description": "",
+        "id": "to-validate-the-register-functionality;invalid-register--to-validate-the-registration-functionality-of-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24192293800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should be in bigw register page",
+            "match": {
+              "location": "RegisterSteps.the_user_should_be_in_bigw_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5831200800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user click the create new account button",
+            "match": {
+              "location": "RegisterSteps.the_user_click_the_create_new_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1184175400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user has to fill the required details",
+            "match": {
+              "location": "RegisterSteps.the_user_has_to_fill_the_required_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "suganya.iniya23@gmail.com",
+                  "9677747233"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289347100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user has to click the \"create my account\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create my account\"",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterSteps.the_user_has_to_click_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1520498200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should navigate to the user profile page",
+            "match": {
+              "location": "RegisterSteps.the_user_should_navigate_to_the_user_profile_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-30T11:30:31.484Z",
+        "line": 13,
+        "name": "Valid_register- To validate the registration functionality of the application",
+        "description": "",
+        "id": "to-validate-the-register-functionality;valid-register--to-validate-the-registration-functionality-of-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24356102500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user should be in bigw register page",
+            "match": {
+              "location": "RegisterSteps.the_user_should_be_in_bigw_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4369976000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user click the create new account button",
+            "match": {
+              "location": "RegisterSteps.the_user_click_the_create_new_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1219461800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user has to fill the required details",
+            "match": {
+              "location": "RegisterSteps.the_user_has_to_fill_the_required_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "suganyaraju@gmail.com",
+                  "9875342693"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310727300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user has to click the \"create my account\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create my account\"",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterSteps.the_user_has_to_click_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1527037700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user should navigate to the user profile page",
+            "match": {
+              "location": "RegisterSteps.the_user_should_navigate_to_the_user_profile_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@retest"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the register functionality",
+    "description": "",
+    "id": "to-validate-the-register-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/register.feature",
+    "tags": []
+  }
+]

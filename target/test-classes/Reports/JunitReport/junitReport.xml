@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="134.909566">
+<testcase classname="To validate the login functionality of bigw application" name="Invalid_login- To validate the login functionality with invalid credentials" time="38.771249">
+<system-out><![CDATA[Given The user should be in bigw login......................................passed
+When The user has to click account button...................................passed
+And The user has to enter the "suganya@gmail.com" and "2455678".............passed
+And The user has to click "login" button....................................passed
+Then The user should navigate to the invalid login page.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of bigw application" name="Valid_login- To validate the login functionality with valid credentials" time="31.293401">
+<system-out><![CDATA[Given The user should be in bigw login......................................passed
+When The user has to click account button...................................passed
+And The user has to enter the "kathir@gmail.com" and "6765379"..............passed
+And The user has to click "login" button....................................passed
+Then The user should navigate to the invalid login page.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the register functionality" name="Invalid_register- To validate the registration functionality of the application" time="33.047352">
+<system-out><![CDATA[Given The user should be in bigw register page..............................passed
+When The user click the create new account button...........................passed
+And The user has to fill the required details...............................passed
+And The user has to click the "create my account" button....................passed
+Then The user should navigate to the user profile page......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the register functionality" name="Valid_register- To validate the registration functionality of the application" time="31.797564">
+<system-out><![CDATA[Given The user should be in bigw register page..............................passed
+When The user click the create new account button...........................passed
+And The user has to fill the required details...............................passed
+And The user has to click the "create my account" button....................passed
+Then The user should navigate to the user profile page......................passed
+]]></system-out>
+</testcase>
+</testsuite>
