@@ -17,7 +17,7 @@ public class LoginPage extends BaseClass {
 	private WebElement user;
 	@FindBy(id="password")
 	private WebElement pass;
-	@FindBy(xpath="(//button[text()='Continue'])[2]")
+	@FindBy(xpath="//button[@type='submit']")
 	private WebElement continuesClk;
 	public WebElement getLoginClk() {
 		return loginClk;
