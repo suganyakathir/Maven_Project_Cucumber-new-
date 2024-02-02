@@ -1,13 +1,16 @@
-package org.base;
+package org.stepdefinition;
 
 import java.io.IOException;
+
+import org.base.BaseClass;
 
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-public class HooksClass extends BaseClass {
-	@Before
+public class HooksClass extends BaseClass{
+
+	@Before()
 	private void beforeScenario() {
 		System.out.println("------Before scenario------");
 		browserLaunch("chrome");
@@ -15,8 +18,8 @@ public class HooksClass extends BaseClass {
 		implicitWait(20);
      }
 
-	@After
-	public void afterScenario(Scenario sc) throws IOException {
+	@After()
+	public void afterScenario(Scenario sc) throws IOException  {
 		System.out.println("------After scenario------");
 		String name = sc.getName();
 		if(sc.isFailed()) {
@@ -24,6 +27,4 @@ public class HooksClass extends BaseClass {
 		}
 		closeBrowser();
 	}
-
-	
 }
